@@ -1,0 +1,18 @@
+@font-face { /* Définition d'une nouvelle police nommée CAC Champagne */
+    font-family: 'opensans_regular';
+    src: url('Font/opensans_regular_macroman/opensans-regular-webfont.eot');
+    src: url('Font/opensans_regular_macroman/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Font/opensans_regular_macroman/opensans-regular-webfont.woff') format('woff'),
+         url('Font/opensans_regular_macroman/opensans-regular-webfont.ttf') format('truetype'),
+         url('Font/opensans_regular_macroman/opensans-regular-webfont.svg#open_sansregular') format('svg');
+}
+
+
+#Projets ul
+{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
