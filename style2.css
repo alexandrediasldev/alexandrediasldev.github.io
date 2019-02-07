@@ -6,7 +6,76 @@
          url('Font/opensans_regular_macroman/opensans-regular-webfont.ttf') format('truetype'),
          url('Font/opensans_regular_macroman/opensans-regular-webfont.svg#open_sansregular') format('svg');
 }
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: black;
+}
+a:hover
+{
+	color: #E6E0CB;
+}
 
+body
+{
+	margin: 0;
+	font-family: 'opensans_regular',  Helvetica, Arial, sans-serif;
+}
+
+#bloc_page
+{
+	margin: auto;
+
+}
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border: 6px solid black;
+}
+#menu
+{
+	display: flex;
+	flex-direction: row;
+
+}
+#menu li
+{
+	margin: 6px;
+}
+
+#Moi
+{
+	width: 100vw;
+	height: 100vh;
+	max-width: 100%;
+
+	background: url("Image/backtest.jpg");
+	background-size: cover;
+
+	margin: auto;
+
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	
+	color: #E6E0CB;
+
+
+}
+
+#Moi p
+{
+width: 30vw;
+}
+
+#Projets
+{
+text-align: center;
+}
 
 #Projets ul
 {
@@ -15,4 +84,37 @@
 	flex-direction: row;
 	justify-content: space-around;
 	flex-wrap: wrap;
+
+
+}
+
+
+#Contact
+{
+
+	width: 100vw;
+	height: 50vh;
+	max-width: 100%;
+
+	background: url("Image/backtest.jpg");
+	background-size: cover;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+#Contact ul
+{
+	display: flex;
+	align-items: center;
+
+
+	list-style-type: none;
+
+	
+}
+#Contact li
+{
+	margin-left: 2vw;
+	margin-right: 2vw; 
 }
