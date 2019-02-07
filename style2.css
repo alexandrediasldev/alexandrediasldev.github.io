@@ -32,6 +32,8 @@ body
 {
 	margin: 0;
 	font-family: 'opensans_regular',  Helvetica, Arial, sans-serif;
+
+
 }
 
 #bloc_page
@@ -64,9 +66,10 @@ nav ul
 
 	margin: 0px;
 	padding: 0px;
-
-	
-
+}
+nav a:hover
+{
+	color:  #009900;
 }
 #logo
 {
@@ -144,7 +147,8 @@ footer
 {
 
 	width: 100vw;
-	height: 50vh;
+	
+
 	max-width: 100%;
 
 	background-color: #138d75;
