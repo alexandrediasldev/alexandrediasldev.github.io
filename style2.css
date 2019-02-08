@@ -95,6 +95,7 @@ nav a:hover
 	max-width: 100%;
 
 	background: url("Image/backtest.png");
+	background-color: #138d75;
 	background-size: cover;
 
 	margin: auto;
