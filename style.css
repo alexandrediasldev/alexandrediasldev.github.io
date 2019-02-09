@@ -128,6 +128,7 @@ font-size: 2em;
 
 }
 
+
 #Projets ul
 {
 	list-style-type: none;
@@ -143,6 +144,52 @@ font-size: 2em;
 
 
 }
+#Projets li a img 
+{	
+	border:4px solid white;
+	border-radius: 2px;
+}
+
+#Projets li:nth-child(1) a img:hover 
+{
+	
+	border:4px solid #8A2BE2;
+	border-radius: 2px;
+}
+#Projets li:nth-child(2) a img:hover 
+{
+	
+	border:4px solid #DB7093;
+	border-radius: 2px;
+}
+#Projets li:nth-child(3) a img:hover 
+{
+	
+	border:4px solid #2E8B57;
+	border-radius: 2px;
+}
+#Projets li:nth-child(4) a img:hover 
+{
+	
+	border:4px solid #98FB98;
+	border-radius: 2px;
+}
+#Projets li:nth-child(5) a img:hover 
+{
+	
+	border:4px solid #B22222;
+	border-radius: 2px;
+}
+#Projets li:nth-child(6) a img:hover 
+{
+	
+	border:4px solid black;
+	border-radius: 2px;
+}
+
+
+
+
 
 
 footer
@@ -255,4 +302,21 @@ footer
 {
 
 	width: 80%;
+}
+@media screen and (max-width: 1000px) 
+{
+#Projets_style
+{
+ flex-direction: column;
+}
+#Projets_style_main
+{
+	max-width: none;
+	max-height: none;
+}
+#Projets_style_aside
+{
+	max-width: none;
+	max-height: none;
+}
 }
