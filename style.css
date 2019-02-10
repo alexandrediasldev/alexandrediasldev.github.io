@@ -250,6 +250,10 @@ footer
 	font-size: 2em;
 	
 }
+#Projets_style img
+{
+
+}
 
 #Projets_style h1
 {
@@ -292,6 +296,11 @@ footer
 	text-align: center;
 }
 
+
+#Projets_style_aside a:hover
+{
+	color:  #009900;
+}
 #fract_resize1 img
 {
 	
@@ -313,7 +322,10 @@ footer
 {
 	max-width: none;
 	max-height: none;
+
+	
 }
+
 #Projets_style_aside
 {
 	max-width: none;
