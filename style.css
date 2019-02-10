@@ -317,9 +317,18 @@ footer
 }
 @media screen and (max-width: 1000px) 
 {
+#Moi
+{
+	font-size: 1.8em;
+}
 #Moi p
 {
 	width: 50vw;
+}
+
+footer
+{
+	font-size:2em;
 }
 #Projets_style
 {
