@@ -1,2 +1,2 @@
 # alexandrediasldev.github.io
-Site web non mis à jour.
+Site web non mise à jour.
